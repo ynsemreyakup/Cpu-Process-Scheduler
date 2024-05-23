@@ -1,0 +1,117 @@
+Process P1 is queued to be assigned to CPU-2 at time 0.
+Process P2 is queued to be assigned to CPU-1 at time 1.
+Process P3 is queued to be assigned to queue4 at time 1.
+Process P4 is queued to be assigned to CPU-1 at time 1.
+Process P5 is queued to be assigned to queue3 at time 1.
+Process P7 is queued to be assigned to CPU-1 at time 2.
+Process P8 is queued to be assigned to CPU-1 at time 2.
+Process P9 is queued to be assigned to CPU-1 at time 3.
+Process P11 is queued to be assigned to CPU-1 at time 5.
+Process P13 is queued to be assigned to queue4 at time 6.
+Process P15 is queued to be assigned to CPU-2 at time 8.
+Process P17 is queued to be assigned to CPU-1 at time 11.
+Process P18 is queued to be assigned to CPU-1 at time 12.
+Process P20 is queued to be assigned to CPU-1 at time 15.
+Process P2 is assigned to CPU-1 at time 1.
+Process P2 is completed and terminated at time 17.
+Process P4 is assigned to CPU-1 at time 17.
+Process P4 is completed and terminated at time 20.
+Process P7 is assigned to CPU-1 at time 20.
+Process P7 is completed and terminated at time 24.
+Process P8 is assigned to CPU-1 at time 24.
+Process P8 is completed and terminated at time 28.
+Process P9 is assigned to CPU-1 at time 28.
+Process P9 is completed and terminated at time 30.
+Process P11 is assigned to CPU-1 at time 30.
+Process P11 is completed and terminated at time 33.
+Process P17 is assigned to CPU-1 at time 33.
+Process P17 is completed and terminated at time 37.
+Process P18 is assigned to CPU-1 at time 37.
+Process P18 is completed and terminated at time 41.
+Process P20 is assigned to CPU-1 at time 41.
+Process P20 is completed and terminated at time 45.
+Process P1 is assigned to CPU-2 at time 0.
+Process P1 is completed and terminated at time 2.
+Process P15 is assigned to CPU-2 at time 8.
+Process P15 is completed and terminated at time 12.
+Process P5 is assigned to CPU-2 at time 12.
+Process P5 is completed and terminated at time 14.
+Process P3 is assigned to CPU-2 at time 14.
+Process P3 is preempted and re-queued with remaining time 54 at time 22.
+Process P13 is assigned to CPU-2 at time 22.
+Process P13 is completed and terminated at time 24.
+Process P3 is assigned to CPU-2 at time 24.
+Process P3 is preempted and re-queued with remaining time 46 at time 32.
+Process P3 is assigned to CPU-2 at time 32.
+Process P3 is preempted and re-queued with remaining time 38 at time 40.
+Process P3 is assigned to CPU-2 at time 40.
+Process P3 is preempted and re-queued with remaining time 30 at time 48.
+Process P3 is assigned to CPU-2 at time 48.
+Process P3 is preempted and re-queued with remaining time 22 at time 56.
+Process P3 is assigned to CPU-2 at time 56.
+Process P3 is preempted and re-queued with remaining time 14 at time 64.
+Process P3 is assigned to CPU-2 at time 64.
+Process P3 is preempted and re-queued with remaining time 6 at time 72.
+Process P3 is assigned to CPU-2 at time 72.
+Process P3 is completed and terminated at time 78.
+Process P6 is queued to be assigned to queue3 at time 78.
+Process P10 is queued to be assigned to queue3 at time 78.
+Process P21 is queued to be assigned to queue4 at time 78.
+Process P25 is queued to be assigned to CPU-2 at time 78.
+Process P25 is assigned to CPU-2 at time 78.
+Process P25 is completed and terminated at time 80.
+Process P6 is assigned to CPU-2 at time 80.
+Process P6 is completed and terminated at time 83.
+Process P10 is assigned to CPU-2 at time 83.
+Process P10 is preempted and re-queued with remaining time 36 at time 91.
+Process P10 is assigned to CPU-2 at time 91.
+Process P10 is preempted and re-queued with remaining time 28 at time 99.
+Process P10 is assigned to CPU-2 at time 99.
+Process P10 is preempted and re-queued with remaining time 20 at time 107.
+Process P10 is assigned to CPU-2 at time 107.
+Process P10 is preempted and re-queued with remaining time 12 at time 115.
+Process P10 is assigned to CPU-2 at time 115.
+Process P10 is preempted and re-queued with remaining time 4 at time 123.
+Process P10 is assigned to CPU-2 at time 123.
+Process P10 is completed and terminated at time 127.
+Process P21 is assigned to CPU-2 at time 127.
+Process P21 is completed and terminated at time 130.
+Process P12 is queued to be assigned to queue4 at time 130.
+Process P14 is queued to be assigned to CPU-2 at time 130.
+Process P14 is assigned to CPU-2 at time 130.
+Process P14 is completed and terminated at time 156.
+Process P12 is assigned to CPU-2 at time 156.
+Process P12 is preempted and re-queued with remaining time 24 at time 164.
+Process P12 is assigned to CPU-2 at time 164.
+Process P12 is preempted and re-queued with remaining time 16 at time 172.
+Process P12 is assigned to CPU-2 at time 172.
+Process P12 is preempted and re-queued with remaining time 8 at time 180.
+Process P12 is assigned to CPU-2 at time 180.
+Process P12 is completed and terminated at time 188.
+Process P16 is queued to be assigned to queue4 at time 188.
+Process P19 is queued to be assigned to queue3 at time 188.
+Process P19 is assigned to CPU-2 at time 188.
+Process P19 is preempted and re-queued with remaining time 21 at time 196.
+Process P19 is assigned to CPU-2 at time 196.
+Process P19 is preempted and re-queued with remaining time 13 at time 204.
+Process P19 is assigned to CPU-2 at time 204.
+Process P19 is preempted and re-queued with remaining time 5 at time 212.
+Process P19 is assigned to CPU-2 at time 212.
+Process P19 is completed and terminated at time 217.
+Process P16 is assigned to CPU-2 at time 217.
+Process P16 is completed and terminated at time 221.
+Process P22 is queued to be assigned to queue4 at time 221.
+Process P23 is queued to be assigned to queue3 at time 221.
+Process P24 is queued to be assigned to queue4 at time 221.
+Process P23 is assigned to CPU-2 at time 221.
+Process P23 is completed and terminated at time 224.
+Process P22 is assigned to CPU-2 at time 224.
+Process P22 is preempted and re-queued with remaining time 17 at time 232.
+Process P24 is assigned to CPU-2 at time 232.
+Process P24 is completed and terminated at time 234.
+Process P22 is assigned to CPU-2 at time 234.
+Process P22 is preempted and re-queued with remaining time 9 at time 242.
+Process P22 is assigned to CPU-2 at time 242.
+Process P22 is preempted and re-queued with remaining time 1 at time 250.
+Process P22 is assigned to CPU-2 at time 250.
+Process P22 is completed and terminated at time 251.
