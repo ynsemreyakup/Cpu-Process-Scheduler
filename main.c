@@ -96,6 +96,24 @@ bool checkResources(Process* process, int available_ram, int available_cpu) {
     return process->ram_required <= available_ram && process->cpu_required <= available_cpu;
 }
 
+void fcfsScheduling(Queue* queue, FILE* output, int* available_ram, int* current_time, char* processed_order) {
+    while (!isQueueEmpty(queue)) {
+        Process* process = dequeue(queue);
+        if (*current_time < process->arrival_time) {
+            *current_time = process->arrival_time;
+        }
+        fprintf(output, "Process %s is assigned to CPU-1 at time %d.\n", process->id, *current_time);
+        *current_time += process->burst_time;
+        process->completed = true;
+        fprintf(output, "Process %s is completed and terminated at time %d.\n", process->id, *current_time);
+        *available_ram += process->ram_required;
+
+        // Add the process id to the processed order list
+        strcat(processed_order, process->id);
+        strcat(processed_order, "-");
+    }
+    
+}
 
 
 void sjfScheduling(Queue* queue, FILE* output, int* available_ram, int* current_time, char* processed_order, Process* processes, int process_count) {
